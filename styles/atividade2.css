@@ -1,0 +1,57 @@
+.container {
+     display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 100px);
+  text-align: center;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 30px;
+
+   grid-template-areas:
+    "um um um"
+    "dois tres quatro"
+    "cinco tres seis"
+    "cinco sete sete"
+    "oito oito nove";
+}
+div {
+    align-content: center;
+     border-radius: 5px;
+     font-family: 'Arial Black';
+}
+.um {
+    background-color: #F25287;
+    grid-area: um;
+}
+.dois {
+    background-color: #F14668;
+    grid-area: dois;
+}
+.tres {
+    background-color: #FFD880;
+    grid-area: tres;
+}
+.quatro {
+    background-color: #F14668;
+    grid-area: quatro;
+}
+.cinco {
+    background-color: #CD5D7D;
+    grid-area: cinco;
+}
+.seis {
+    background-color: #8AC4D0;
+    grid-area: seis;
+}
+.sete {
+    background-color: #FB743E;
+    grid-area: sete;
+}
+.oito {
+    background-color: #4A47A3;
+    grid-area: oito;
+}
+.nove {
+    background-color: #FFD880;
+    grid-area: nove;
+}

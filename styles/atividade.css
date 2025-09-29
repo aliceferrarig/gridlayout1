@@ -1,0 +1,54 @@
+.container {
+     display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 100px);
+  text-align: center;
+  gap: 10px;
+  
+}
+div {
+    align-content: center;
+}
+.um {
+    grid-column: 1/2;
+    grid-row: 1/4;
+    background-color: #66D8CD;
+}
+.dois {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    background-color: #66D8CD;
+}
+.tres {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    background-color: #ffffff;
+}
+.quatro {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: #66D8CD;
+}
+.cinco {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: #ffffff;
+}
+.seis {
+    grid-column: 4/5;
+    grid-row: 2/4;
+    background-color: #66D8CD;
+}
+.sete {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-color: #ffffff;
+}
+.oito {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-color: #66D8CD;
+}
+body {
+    background-color: #20333F;
+}
