@@ -1,0 +1,85 @@
+.container {
+     display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(6, 100px);
+  font-size: 20px;
+
+   grid-template-areas:
+    "l1 l1 c1 c1 c1 r1 r1"
+    "rosa ltotal ltotal c2 rtotal rtotal rosa1"
+    "lf d3 d3 d3 d3 d3 rf"
+    "rosa2 lui lui cui rui rui rosa3"
+    "pholder pholder pholder pholder pholder pholder pholder";
+}
+
+.l1 {
+    background-color: #BDBF92;
+    grid-area: l1;
+}
+.c1 {
+    background-color: #99C977;
+    grid-area: c1;
+}
+.r1 {
+    background-color: #72C56F;
+    grid-area: r1;
+}
+.rosa {
+    background-color:#D65EFF;
+    grid-area: rosa;
+}
+
+.ltotal {
+    background-color: #5AD07D;
+   grid-area: ltotal;
+}
+.c2 {
+    background-color: #58CBA0;
+    grid-area:c2;
+}
+.rtotal {
+    background-color: #51BDCB;
+    grid-area: rtotal;
+}
+.rosa1 {
+    background-color: #D65EFF;
+    grid-area: rosa1;
+}
+.lf {
+    background-color: #596FD5;
+    grid-area: lf;
+}
+.d3 {
+    background-color: #6065D1;
+    grid-area: d3;
+}
+.rf {
+    background-color: #695CBD;
+    grid-area: rf;
+}
+.rosa2 {
+    background-color: #D65EFF;
+    grid-area: rosa2;
+}
+.lui {
+    background-color: #AF71B8;
+    grid-area: lui;
+}
+.cui  {
+    background-color: #B57C9E;
+    grid-area: cui;
+}
+.rui {
+    background-color: #AD7680;
+    grid-area: rui;
+}
+.rosa3 {
+    background-color: #D65EFF;
+    grid-area: rosa3;
+}
+.pholder {
+    background-color: #B8B081;
+    grid-area: pholder;
+}
+
+
